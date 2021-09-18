@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import Header from './Header.js';
+import Technologies from './Technologies';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -9,36 +12,6 @@ function App() {
 		<Footer />
 	</div>
   );
-}
-
-function Header() {
-	return(
-		<header>
-			<ul>
-				<li><a href="">Ссылка1</a></li>
-				<li><a href="">Ссылка2</a></li>
-				<li><a href="">Ссылка3</a></li>
-			</ul>
-		</header>
-	); 
-}
-
-function Technologies() {
-	return(
-		<ul>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>JS</li>
-		</ul>
-	)
-}
-
-function Footer() {
-	return(
-		<footer>
-			<p>Footer</p>
-		</footer>
-	)
 }
 
 export default App;
